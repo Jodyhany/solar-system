@@ -1,0 +1,102 @@
+:root{
+    --maincolor:rgba(11, 149, 134, 1);
+}
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    body{scroll-behavior: smooth;font-family: "Inter", sans-serif;}
+    a{text-decoration: none;}
+.main-bg{background-color: var(--maincolor);}
+.main-color{color: var(--maincolor);}
+.text-white{color:white;}
+.text-light{color:rgba(71, 84, 103, 1);}
+.container{width: 80%;}
+.container-flluid{width: 100%;}
+.flex{display: flex;}
+.text-end{text-align: end;}
+.text-center{text-align: center;}
+.justify-between{justify-content: space-between;}
+.justify-center{justify-content: center;}
+.align-center{align-items: center;}
+.mx-auto{margin-left: auto;
+margin-right: auto;}
+.wrap{flex-wrap: wrap;}
+.w-33{width: 33%;}
+.btn{border: none;
+padding: 0.5rem;
+border-radius: 10px;
+width: 150px;
+cursor: pointer;}
+.btn-gold{background-color: rgba(255, 187, 28, 1);}
+.text-bold{font-weight: bold;}
+.my-4{margin-top: 4rem;
+margin-bottom: 4rem;}
+.my-2{margin-top: 2rem;
+margin-bottom: 2rem;}
+.text-title{font-size: 2.6rem}
+nav{padding: 0.5%;}
+header{background:url('/solar-landing/images/solar-panels-meadow\ 1.png');
+height:100vh;
+overflow: hidden;
+background-size: 100% 100%;
+background-repeat: no-repeat;}
+header .container {transform: translate(0%, 8rem);}
+header .container p{margin: 2rem 0;width: 66rem;}
+section{padding: 2rem;}
+nav a:hover{
+    border: 3px solid rgba(0, 0, 0, 0.06);
+    padding: 5px;
+    box-shadow: 2px;
+}
+#callus{
+    background: url('/solar-landing/images/8116\ 1.png');
+    background-size: cover ;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+.offers .box {
+    margin: 1rem;
+}
+.offers .box p{
+    width: 20rem;
+}
+.hero{
+    background-image: url('/solar-landing/images/8116\ 1\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hero .box{
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.values .box{border: 1px solid var(--maincolor) ;
+padding: 0.5rem ;
+background-color: #f3f3f3;
+margin: 1rem;}
+.values .box p {
+    width: 20rem;
+}
+footer{background-color: rgba(40, 54, 70, 1);padding: 0.5rem;
+}
+footer input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+footer .mail{border: 1px solid rgba(179, 189, 199, 1);border-radius: 10px; }
+.border-b{
+    border-bottom: 1px solid rgba(113, 119, 125, 1);
+padding: 0.5rem;
+}
+footer a{color: white ;
+margin: 2rem;}
+@media (max-width:550px) {
+    .flex{flex-direction: column;}
+    nav{text-align: start;}
+    nav a , nav div {margin: 4%;}
+    nav img{display: none;}
+    }
+    .logo{display: none;}
+
+
